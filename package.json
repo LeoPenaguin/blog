@@ -1,0 +1,19 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "author": "Léo Penaguin",
+  "description": "Coucou",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/articles.mjs && vitepress dev docs",
+    "build": "node scripts/articles.mjs && vitepress build docs",
+    "preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "@types/node": "^18.14.2",
+    "gray-matter": "^4.0.3",
+    "vitepress": "1.0.0-alpha.48",
+    "vue": "^3.2.47"
+  }
+}
