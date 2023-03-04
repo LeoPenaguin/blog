@@ -2,7 +2,7 @@ export default {
   title: "Léo PNG",
   description: "Just playing around.",
   lang: 'fr-FR',
-  base: 'https://github.com/LeoPenaguin/blog',
+  base: '/blog/',
   lastUpdated: true,
   themeConfig: {
     editLink: {
